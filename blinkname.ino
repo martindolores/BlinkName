@@ -89,7 +89,7 @@ void morse(int btnState)
     // Morse code for "R"
     flash(dot, btnState);
     flash(dash, btnState);
-    flash(dash, btnState);
+    flash(dot, btnState);
         
     // Space between the letters
     space(btnState);
