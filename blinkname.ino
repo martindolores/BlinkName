@@ -8,7 +8,7 @@ SYSTEM_THREAD(ENABLED);
 void setup()
 {
     pinMode(LED, OUTPUT);
-    pinMode(PUSH_BUTTON, INPUT_PULLUP);
+    pinMode(PUSH_BUTTON, INPUT);
 } 
 
 void space(int btnState)
