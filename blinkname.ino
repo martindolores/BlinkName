@@ -1,4 +1,4 @@
-int PUSH_BUTTON = D6;
+const int PUSH_BUTTON = D6;
 const pin_t LED = D7;
 const int dot = 1000;
 const int dash = 3000;
